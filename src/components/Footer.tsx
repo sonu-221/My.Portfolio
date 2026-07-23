@@ -58,7 +58,6 @@ export default function Footer() {
             © {year} Sonu Kumar. All rights reserved.
           </p>
           <p className="text-xs text-slate-500">
-            Designed &amp; built with passion · Data · AI · ML
           </p>
         </div>
       </div>
