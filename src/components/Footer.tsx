@@ -40,7 +40,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-xl glass glass-hover text-slate-300 hover:text-cyan-400"
+              className="https://github.com/sonu-221"
             >
               <Github size={18} />
             </a>
