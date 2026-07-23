@@ -43,7 +43,7 @@ export default function About() {
                 <span className="text-cyan-400 font-semibold">
                   Centurion University of Technology and Management
                 </span>{' '}
-                (2023 – Present). I&apos;m passionate about turning data into
+                (2023 – 2027). I&apos;m passionate about turning data into
                 intelligent systems that solve real-world problems.
               </p>
               <p className="mt-5 text-slate-400 leading-relaxed">
