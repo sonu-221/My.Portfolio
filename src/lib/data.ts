@@ -12,7 +12,7 @@ export const PROFILE = {
   name: 'Sonu Kumar',
   title: 'Data Analytics · Game Developer',
   tagline:
-    'Passionate about solving real-world problems with Data and AI, building intelligent, scalable end-to-end applications.',
+    'Turning raw data into actionable insights with Power BI, SQL, and analytics — and building engaging interactive experiences.',
   email: 'thelegist5665@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sonu-kumar',
   github: 'https://www.linkedin.com/in/sonu-kumar-765b62313?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -25,14 +25,36 @@ export type SkillCategory = {
   title: string;
   icon: string;
   accent: string;
+  description?: string;
   skills: string[];
 };
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
+    title: 'Data Analytics & Visualization',
+    icon: 'BarChart3',
+    accent: 'cyan',
+    description:
+      'I turn raw, messy data into clear, interactive dashboards and actionable business insights — writing optimized SQL queries, building Power BI reports with DAX measures, and running exploratory data analysis to uncover the trends that drive decisions.',
+    skills: [
+      'Power BI',
+      'SQL',
+      'MySQL',
+      'Microsoft Excel',
+      'DAX',
+      'Data Cleaning',
+      'Exploratory Data Analysis',
+      'Dashboards & Reporting',
+      'Data Storytelling',
+      'Pivot Tables',
+    ],
+  },
+  {
     title: 'AI & Machine Learning',
     icon: 'Brain',
     accent: 'cyan',
+    description:
+      'From training classifiers to deploying deep learning models, I build intelligent systems that solve real-world problems across computer vision, NLP, and generative AI.',
     skills: [
       'Machine Learning',
       'Deep Learning',
@@ -48,12 +70,15 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     title: 'Frameworks & Libraries',
     icon: 'Layers',
     accent: 'violet',
+    description:
+      'The libraries I reach for daily to build, train, and evaluate models end-to-end.',
     skills: [
       'TensorFlow',
       'Scikit-learn',
       'Pandas',
       'NumPy',
       'OpenCV',
+      'Jupyter Notebook',
       'CNN',
       'LSTM',
     ],
@@ -61,10 +86,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: 'Web & Backend',
     icon: 'Code2',
-    accent: 'cyan',
+    accent: 'violet',
+    description:
+      'I ship full-stack applications — APIs, dashboards, and web interfaces that bring models and data to life for end users.',
     skills: [
       'Python',
-      'SQL',
       'Flask',
       'REST APIs',
       'HTML5',
@@ -72,14 +98,9 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       'JavaScript',
       'React.js',
       'Node.js',
-      'MySQL',
+      'Git',
+      'GitHub',
     ],
-  },
-  {
-    title: 'Developer Tools & Data Viz',
-    icon: 'BarChart3',
-    accent: 'violet',
-    skills: ['Power BI', 'Excel', 'Jupyter Notebook', 'Git', 'GitHub'],
   },
 ];
 

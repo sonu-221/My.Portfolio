@@ -72,30 +72,27 @@ export default function Hero() {
         {/* Right: animated avatar orb */}
         <div className="lg:col-span-5 hidden lg:flex justify-center">
           <div className="relative perspective">
-            <div className="absolute inset-0 animate-border-flow bg-gradient-to-br from-cyan-400/40 to-violet-600/40 blur-2xl" />
+            <div className="absolute inset-0 rounded-full animate-border-flow bg-gradient-to-br from-cyan-400/40 to-violet-600/40 blur-2xl" />
             <div
-              className="relative h-72 w-72 lg:h-80 lg:w-80 animate-border-flow bg-gradient-to-br from-cyan-400 via-ink-800 to-violet-600 p-[2px] animate-float"
+              className="relative h-72 w-72 lg:h-80 lg:w-80 rounded-full animate-border-flow bg-gradient-to-br from-cyan-400 via-ink-800 to-violet-600 p-[3px] animate-float"
             >
-              <div className="h-full w-full rounded-[inherit] bg-ink-900 flex items-center justify-center overflow-hidden">
-                <div className="text-center px-8">
-                  <div className="font-display text-7xl font-bold gradient-text-violet">
-                    SK
-                  </div>
-                  <div className="mt-3 text-xs uppercase tracking-[0.3em] text-slate-500">
-                    Data Analytics · Game Dev
-                  </div>
-                </div>
+              <div className="h-full w-full rounded-full bg-ink-900 overflow-hidden">
+                <img
+                  src="/image.png"
+                  alt="Sonu Kumar"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
             {/* floating chips */}
             <div className="absolute -top-4 -right-6 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:1s]">
-              🧠 Deep Learning
+              📊 Power BI
             </div>
             <div className="absolute -bottom-2 -left-8 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:2s]">
-              🤖 GenAI · LLMs
+              🗄️ SQL · Data
             </div>
             <div className="absolute top-1/2 -right-12 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:3s]">
-              📊 Computer Vision
+              📈 Data Analytics
             </div>
           </div>
         </div>

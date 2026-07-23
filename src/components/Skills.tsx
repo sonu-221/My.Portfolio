@@ -40,8 +40,9 @@ export default function Skills() {
             Tech <span className="gradient-text">Stack</span>
           </h2>
           <p className="mt-4 max-w-2xl text-slate-400">
-            A toolkit honed across AI research, model deployment, and
-            full-stack application development.
+            A toolkit honed across data analytics, AI research, and
+            full-stack development — from SQL queries and Power BI
+            dashboards to deployed machine learning models.
           </p>
         </div>
 
@@ -55,7 +56,7 @@ export default function Skills() {
                 className={`reveal group glass glass-hover rounded-2xl p-7 ${a.glow}`}
                 style={{ transitionDelay: `${i * 90}ms` }}
               >
-                <div className="flex items-center gap-4 mb-6">
+                <div className="flex items-center gap-4 mb-4">
                   <div
                     className={`inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${a.ring} border border-white/10`}
                   >
@@ -65,6 +66,12 @@ export default function Skills() {
                     {cat.title}
                   </h3>
                 </div>
+
+                {cat.description && (
+                  <p className="text-sm text-slate-400 leading-relaxed mb-5">
+                    {cat.description}
+                  </p>
+                )}
 
                 <div className="flex flex-wrap gap-2.5">
                   {cat.skills.map((skill) => (
