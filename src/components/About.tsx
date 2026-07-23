@@ -47,10 +47,7 @@ export default function About() {
                 intelligent systems that solve real-world problems.
               </p>
               <p className="mt-5 text-slate-400 leading-relaxed">
-                My foundation spans Data Structures, Algorithms, Database
-                Management, Machine Learning, Deep Learning, and Generative AI —
-                with hands-on experience building end-to-end AI applications
-                from model training to deployment.
+My core expertise includes Full Stack Web Development, Data Analytics, SQL, Python, JavaScript, React.js, Node.js, Express.js, MongoDB, Power BI, and Excel. I enjoy designing responsive user interfaces, developing secure backend systems, and transforming complex datasets into actionable insights that support informed decision-making.
               </p>
 
               <div className="mt-8 flex items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/[0.05]">
