@@ -14,7 +14,6 @@ export default function Footer() {
               SK
             </span>
             <span className="font-display text-lg font-bold text-white">
-              Sonu Kumar
             </span>
           </a>
 
