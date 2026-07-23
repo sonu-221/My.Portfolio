@@ -3,18 +3,18 @@ import { GraduationCap, Cpu, Brain, Database } from 'lucide-react';
 const PILLARS = [
   {
     icon: Database,
+    title: 'Data Analytics',
+    desc: 'Analyzing business data and creating interactive dashboards using Python, SQL, Excel, and Power BI.',
+  },
+  {
+     icon: Database,
     title: 'Data Structures & Algorithms',
     desc: 'Strong problem-solving foundation for efficient, scalable code.',
   },
   {
-    icon: Cpu,
-    title: 'Database Management',
-    desc: 'Designing and querying relational data systems with SQL & MySQL.',
-  },
-  {
-    icon: Brain,
-    title: 'ML, DL & GenAI',
-    desc: 'From classical ML to deep networks and large language models.',
+ icon: Cpu,
+    title: 'Full Stack Web Development',
+    desc: 'Building responsive, scalable, and modern web applications using React, Node.js, Express.js, and MongoDB.',
   },
 ];
 
