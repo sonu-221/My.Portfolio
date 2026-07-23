@@ -62,7 +62,7 @@ export default function About() {
                     B.Tech · CSE
                   </p>
                   <p className="text-xs text-slate-400">
-                    Centurion University · 2023 – Present
+                    Centurion University · 2023 – 2027
                   </p>
                 </div>
               </div>
