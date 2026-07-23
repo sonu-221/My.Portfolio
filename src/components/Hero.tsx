@@ -29,7 +29,7 @@ export default function Hero() {
             <Sparkles size={14} className="text-cyan-400" />
 
             <span className="text-xs font-medium text-slate-300">
-              Available for opportunities
+              
             </span>
           </div>
 
