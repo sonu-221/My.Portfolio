@@ -15,8 +15,8 @@ export const PROFILE = {
     'Passionate about solving real-world problems with Data and AI, building intelligent, scalable end-to-end applications.',
   email: 'thelegist5665@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sonu-kumar',
-  github: 'https://github.com/sonu-221?tab=repositories',
-  resumeUrl: '/resume.pdf',
+  github: 'https://www.linkedin.com/in/sonu-kumar-765b62313?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+  resumeUrl: '"C:\Users\thele\Downloads\Sonu-Resume-2.0.pdf"',
   location: 'India',
   university: 'Centurion University of Technology and Management',
 };
