@@ -43,7 +43,7 @@ export default function About() {
                 <span className="text-cyan-400 font-semibold">
                   Centurion University of Technology and Management
                 </span>{' '}
-                (2023 – 2027). I&apos;m I am passionate about building scalable web applications and leveraging data analytics to solve real-world business problems through technology. 
+                (2023 – 2027). I&apos;m passionate about building scalable web applications and leveraging data analytics to solve real-world business problems through technology. 
               </p>
               <p className="mt-5 text-slate-400 leading-relaxed">
 My core expertise includes Full Stack Web Development, Data Analytics, SQL, Python, JavaScript, React.js, Node.js, Express.js, MongoDB, Power BI, and Excel. I enjoy designing responsive user interfaces, developing secure backend systems, and transforming complex datasets into actionable insights that support informed decision-making.
