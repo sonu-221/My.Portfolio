@@ -19,7 +19,6 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass mb-6 animate-fade-in">
             <Sparkles size={14} className="text-cyan-400" />
             <span className="text-xs font-medium text-slate-300">
-              Available for opportunities
             </span>
           </div>
 
@@ -85,18 +84,6 @@ export default function Hero() {
               </div>
             </div>
             {/* floating chips */}
-            <div className="absolute -top-4 -right-6 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:1s]">
-              📊 Power BI
-            </div>
-            <div className="absolute -bottom-2 -left-8 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:2s]">
-              🗄️ SQL · Data
-            </div>
-            <div className="absolute top-1/2 -right-12 glass rounded-xl px-3 py-2 text-xs text-slate-300 animate-float [animation-delay:3s]">
-              📈 Data Analytics
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* scroll cue */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-slate-500">
