@@ -38,7 +38,7 @@ export default function Navbar() {
             SK
           </span>
           <span className="hidden sm:inline">
-            Sonu<span className="text-cyan-400">.</span>
+            <span className="text-cyan-400">.</span>
           </span>
         </a>
 
