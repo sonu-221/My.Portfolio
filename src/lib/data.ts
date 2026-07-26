@@ -213,32 +213,31 @@ export type Certificate = {
   title: string;
   issuer: string;
   date: string;
-  category: 'Claude AI' | 'Data Analytics' | 'Machine Learning' | 'Game Development';
+  category: 'Claude AI' | 'AI Fluency' | 'MCP' | 'AI Agents';
 };
 
 export const CERTIFICATES: Certificate[] = [
-  { id: 1, title: 'Claude AI Fundamentals', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 2, title: 'Prompt Engineering with Claude', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 3, title: 'Building AI Agents with Claude', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 4, title: 'Claude API & Tool Use', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 5, title: 'Retrieval-Augmented Generation with Claude', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 6, title: 'Claude Code Mastery', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 7, title: 'Claude for Data Analysis', issuer: 'Anthropic', date: '2025', category: 'Claude AI' },
-  { id: 8, title: 'Advanced Prompt Patterns', issuer: 'Anthropic', date: '2024', category: 'Claude AI' },
-  { id: 9, title: 'LLM Evaluation & Safety', issuer: 'Anthropic', date: '2024', category: 'Claude AI' },
-  { id: 10, title: 'Multimodal AI with Claude', issuer: 'Anthropic', date: '2024', category: 'Claude AI' },
-  { id: 11, title: 'Microsoft Power BI Data Analyst (PL-300)', issuer: 'Microsoft', date: '2025', category: 'Data Analytics' },
-  { id: 12, title: 'SQL for Data Science', issuer: 'IBM', date: '2024', category: 'Data Analytics' },
-  { id: 13, title: 'Data Analytics with Excel', issuer: 'Google', date: '2024', category: 'Data Analytics' },
-  { id: 14, title: 'Data Visualization with Power BI', issuer: 'Microsoft', date: '2025', category: 'Data Analytics' },
-  { id: 15, title: 'DAX Fundamentals', issuer: 'Microsoft', date: '2024', category: 'Data Analytics' },
-  { id: 16, title: 'Data Storytelling & Dashboards', issuer: 'Coursera', date: '2024', category: 'Data Analytics' },
-  { id: 17, title: 'Machine Learning Specialization', issuer: 'DeepLearning.AI', date: '2024', category: 'Machine Learning' },
-  { id: 18, title: 'Deep Learning with TensorFlow', issuer: 'Google', date: '2024', category: 'Machine Learning' },
-  { id: 19, title: 'Python for Data Science & AI', issuer: 'IBM', date: '2024', category: 'Machine Learning' },
-  { id: 20, title: 'Computer Vision with OpenCV', issuer: 'Coursera', date: '2024', category: 'Machine Learning' },
-  { id: 21, title: 'Game Development with Unity', issuer: 'Unity', date: '2025', category: 'Game Development' },
-  { id: 22, title: 'Game Design Fundamentals', issuer: 'Coursera', date: '2025', category: 'Game Development' },
+  { id: 1,  title: 'Claude 101',                              issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 2,  title: 'Claude Code 101',                        issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 3,  title: 'Claude Platform 101',                    issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 4,  title: 'Introduction to Claude Cowork',          issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 5,  title: 'Claude Code in Action',                  issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 6,  title: 'Claude with the Anthropic API',          issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 7,  title: 'Claude with Amazon Bedrock',             issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 8,  title: 'Claude with Google Vertex AI',           issuer: 'Anthropic',                       date: '2025', category: 'Claude AI'  },
+  { id: 9,  title: 'AI Fluency: Framework & Foundations',    issuer: 'Anthropic · UCC · Ringling · HEA', date: '2025', category: 'AI Fluency' },
+  { id: 10, title: 'AI Fluency for educators',               issuer: 'Anthropic · UCC · Ringling · HEA', date: '2025', category: 'AI Fluency' },
+  { id: 11, title: 'AI Fluency for students',                issuer: 'Anthropic · UCC · Ringling · HEA', date: '2025', category: 'AI Fluency' },
+  { id: 12, title: 'AI Fluency: AI Capabilities & Limitations', issuer: 'Anthropic',                   date: '2025', category: 'AI Fluency' },
+  { id: 13, title: 'AI Fluency for nonprofits',              issuer: 'Anthropic · GivingTuesday',        date: '2025', category: 'AI Fluency' },
+  { id: 14, title: 'AI Fluency for Small Businesses',        issuer: 'Anthropic · PayPal',               date: '2025', category: 'AI Fluency' },
+  { id: 15, title: 'AI Fluency for Builders',                issuer: 'Anthropic · CodePath.org',         date: '2025', category: 'AI Fluency' },
+  { id: 16, title: 'AI Fluency for K-12 Educators',          issuer: 'Anthropic · Teach For America',    date: '2025', category: 'AI Fluency' },
+  { id: 17, title: 'Teaching the AI Fluency Framework',      issuer: 'Anthropic · UCC · Ringling · HEA', date: '2025', category: 'AI Fluency' },
+  { id: 18, title: 'Introduction to Model Context Protocol', issuer: 'Anthropic',                       date: '2025', category: 'MCP'        },
+  { id: 19, title: 'Model Context Protocol: Advanced Topics',issuer: 'Anthropic',                       date: '2025', category: 'MCP'        },
+  { id: 20, title: 'Introduction to agent skills',           issuer: 'Anthropic',                       date: '2025', category: 'AI Agents'  },
+  { id: 21, title: 'Introduction to subagents',              issuer: 'Anthropic',                       date: '2025', category: 'AI Agents'  },
 ];
 
 export async function submitContact(

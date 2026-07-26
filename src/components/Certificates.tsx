@@ -7,16 +7,16 @@ type FilterKey = 'All' | Certificate['category'];
 const FILTERS: { key: FilterKey; label: string }[] = [
   { key: 'All', label: 'All' },
   { key: 'Claude AI', label: 'Claude AI' },
-  { key: 'Data Analytics', label: 'Data Analytics' },
-  { key: 'Machine Learning', label: 'Machine Learning' },
-  { key: 'Game Development', label: 'Game Development' },
+  { key: 'AI Fluency', label: 'AI Fluency' },
+  { key: 'MCP', label: 'MCP' },
+  { key: 'AI Agents', label: 'AI Agents' },
 ];
 
 const CATEGORY_ICON: Record<Certificate['category'], LucideIcon> = {
   'Claude AI': BadgeCheck,
-  'Data Analytics': Award,
-  'Machine Learning': Award,
-  'Game Development': Award,
+  'AI Fluency': Award,
+  'MCP': Award,
+  'AI Agents': Award,
 };
 
 const CATEGORY_COUNT = (cat: FilterKey) =>
@@ -41,8 +41,8 @@ export default function Certificates() {
             Certifications & <span className="gradient-text">Achievements</span>
           </h2>
           <p className="mt-4 max-w-2xl text-slate-400">
-            20+ certifications across Claude AI, data analytics, machine learning,
-            and game development — a commitment to continuous, hands-on learning.
+            21 verified Anthropic certifications — spanning Claude core courses,
+            AI Fluency programs, Model Context Protocol, and AI agent development.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function Certificates() {
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {visible.map((cert, i) => {
             const Icon = CATEGORY_ICON[cert.category];
-            const isClaude = cert.category === 'Claude AI';
+            const isClaude = cert.category === 'Claude AI' || cert.category === 'MCP' || cert.category === 'AI Agents';
             const accentText = isClaude ? 'text-cyan-400' : 'text-violet-400';
             const ring = isClaude
               ? 'from-cyan-400/20 to-cyan-500/5'
