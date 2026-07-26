@@ -38,7 +38,7 @@ export default function Hero() {
           {/* Main heading */}
           <h1 className="hero-heading animate-fade-up">
             <span className="block hero-intro">
-              Hi, I&apos;m
+              Hi, i'm
             </span>
 
             <span className="block hero-name gradient-text text-shadow-glow">
