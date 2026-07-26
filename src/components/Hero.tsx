@@ -63,15 +63,6 @@ export default function Hero() {
             </a>
 
             <a
-              href={PROFILE.resumeUrl}
-              download
-              className="btn-ghost flex items-center gap-2"
-            >
-              <Download size={18} />
-              Download Resume
-            </a>
-
-            <a
               href="#contact"
               className="btn-ghost flex items-center gap-2"
             >
