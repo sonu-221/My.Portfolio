@@ -12,7 +12,7 @@ export const PROFILE = {
   name: 'Sonu Kumar',
   title: 'Data Analytics · Full Stack Developer',
   tagline:
-    'Turning raw data into actionable insights with Power BI, SQL, and analytics — and building engaging interactive experiences.',
+    'Aspiring Data Analyst with expertise in Python, SQL, Power BI, Excel, and Data Visualization. Passionate about analyzing data, creating insightful dashboards, and solving real-world business problems using data-driven solutions.',
   email: 'thelegist5665@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sonu-kumar',
   github: 'https://www.linkedin.com/in/sonu-kumar-765b62313?utm_source=share_via&utm_content=profile&utm_medium=member_android',
