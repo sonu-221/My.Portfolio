@@ -25,7 +25,13 @@ export default function Hero() {
         {/* Left Side */}
         <div className="lg:col-span-7">
 
-         
+        {/* Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass mb-7 animate-fade-in">
+            <Sparkles size={14} className="text-cyan-400" />
+            <span className="text-xs font-medium tracking-wide text-slate-300">
+              Welcome
+            </span>
+          </div>  
 
           {/* Heading */}
           <h1 className="hero-heading animate-fade-up">
