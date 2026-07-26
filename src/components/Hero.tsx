@@ -44,10 +44,9 @@ export default function Hero() {
             </span>
           </h1>
 
-<p className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-cyan-400 animate-fade-up [animation-delay:120ms] opacity-0">
+<p className="mt-6 text-2xl sm:text-3xl font-bold text-white animate-fade-up [animation-delay:120ms] opacity-0">
   {PROFILE.title}
 </p>
-
           {/* Tagline */}
           <p className="mt-5 max-w-xl text-base sm:text-lg text-slate-400 leading-relaxed animate-fade-up [animation-delay:240ms] opacity-0">
             {PROFILE.tagline}
