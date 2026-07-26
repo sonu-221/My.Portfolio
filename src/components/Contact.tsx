@@ -43,7 +43,7 @@ export default function Contact() {
 
       <div className="relative max-w-7xl mx-auto">
         <div className="reveal">
-          <p className="text-cyan-400 font-mono text-sm mb-3">05 / Contact</p>
+          <p className="text-cyan-400 font-mono text-sm mb-3">06 / Contact</p>
           <h2 className="font-display text-3xl md:text-5xl font-bold text-white">
             Get In <span className="gradient-text-violet">Touch</span>
           </h2>

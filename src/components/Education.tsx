@@ -27,7 +27,7 @@ export default function Education() {
       <div className="relative max-w-7xl mx-auto">
         <div className="reveal">
           <p className="text-cyan-400 font-mono text-sm mb-3">
-            04 / Education
+            05 / Education
           </p>
           <h2 className="font-display text-3xl md:text-5xl font-bold text-white">
             Certifications &{' '}
