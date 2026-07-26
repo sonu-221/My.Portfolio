@@ -10,7 +10,7 @@ export type ContactResult =
 
 export const PROFILE = {
   name: 'Sonu Kumar',
-  title: 'Data Analytics · Web Full Stack Developer',
+  title: 'Data Analytics · Full Stack Developer',
   tagline:
     'Turning raw data into actionable insights with Power BI, SQL, and analytics — and building engaging interactive experiences.',
   email: 'thelegist5665@gmail.com',

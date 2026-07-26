@@ -121,7 +121,7 @@ export default function Hero() {
 
             {/* Floating chips */}
             <div className="absolute -top-5 -right-8 glass rounded-xl px-4 py-2 text-sm font-medium text-cyan-300 animate-float">
-              Web Developer
+              Full Stack Developer
             </div>
 
             <div className="absolute bottom-4 -left-12 glass rounded-xl px-4 py-2 text-sm font-medium text-violet-300 animate-float [animation-delay:1s]">
