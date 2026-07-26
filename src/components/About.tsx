@@ -13,7 +13,7 @@ const PILLARS = [
   },
   {
  icon: Cpu,
-    title: 'Full Stack Web Development',
+    title: 'Full Stack Development',
     desc: 'Building responsive, scalable, and modern web applications using React, Node.js, Express.js, and MongoDB.',
   },
 ];
