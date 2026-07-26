@@ -67,8 +67,6 @@ export default function Hero() {
               href={PROFILE.resumeUrl}
               download
               className="btn-ghost"
-            >
-              <Download size={18} />
             </a>
 
             <a href="#contact" className="btn-ghost">
