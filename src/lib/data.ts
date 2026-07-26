@@ -191,6 +191,21 @@ export const PROJECTS: Project[] = [
     icon: 'ShieldCheck',
     accent: 'cyan',
   },
+  {
+    id: 6,
+    title: 'InternOrbit',
+    tagline: 'AI-powered internship discovery platform built with Bolt',
+    description:
+      'A web platform that connects students and fresh graduates with relevant internship opportunities. Built end-to-end with Bolt, it lets users browse curated internships, filter by role and location, and apply directly — streamlining the path from campus to career.',
+    highlights: [
+      'AI-matched internship recommendations',
+      'Role & location filtering',
+      'Built and deployed with Bolt',
+    ],
+    tags: ['React', 'Bolt', 'Supabase', 'Full-Stack', 'Job Board'],
+    icon: 'Rocket',
+    accent: 'violet',
+  },
 ];
 
 export async function submitContact(
